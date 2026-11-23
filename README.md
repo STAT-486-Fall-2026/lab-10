@@ -49,7 +49,7 @@ This creates your local `.venv` with Python 3.11.5 and generates `uv.lock`. Keep
 
 Open `lab-10.ipynb` in your preferred editor and configure it to use the Python interpreter or notebook kernel in this repository's `.venv`.
 
-Complete the code tasks and written responses in the notebook. Use the supplied training/validation split for both models, select the CNN checkpoint using validation loss, and reserve the test set for the final comparison. Keep the confidence analysis and both embedding plots on the full validation set.
+Complete the code tasks and written responses in the notebook. Use the supplied training/validation split for both models and select the CNN checkpoint using validation loss. Evaluate the fixed models on the test set in Section 4, then complete the confidence analysis and embedding plots in Sections 5 and 6 using the full validation set. Keep both models unchanged after test evaluation.
 
 Before submitting, restart the kernel and run your completed notebook from beginning to end. Save the notebook with its tables, loss curves, image panels, and scatterplots visible. Your written interpretations belong in the provided Markdown cells. Do not commit downloaded data, model checkpoints, or environment directories; these are reproducible from the notebook and ignored by the starter.
 
