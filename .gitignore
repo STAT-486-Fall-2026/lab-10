@@ -11,3 +11,6 @@ __pycache__/
 /checkpoints/
 *.pt
 *.pth
+
+# Instructor reference notebook.
+/lab-10-solutions.ipynb

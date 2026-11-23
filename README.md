@@ -12,7 +12,7 @@ You need Git, a GitHub account, and [uv](https://docs.astral.sh/uv/getting-start
 
 Plan for **3–4 hours** of coding and interpretation. The required work supports a local CPU; a GPU is not required. Allow extra time for the first environment installation and dataset download. The supplied setup downloads approximately 31 MB of compressed Fashion-MNIST data from a pinned revision of the official dataset repository and caches it locally. Both projection plots use all 10,000 validation examples, so allow the t-SNE fit to finish before running it again.
 
-In a CPU reference check, the eight CNN training epochs took about four minutes and full-validation t-SNE took about one minute. These are execution times; the lab estimate includes implementation and interpretation. Runtime will vary with hardware and background activity.
+In a CPU reference check, the 25 CNN training epochs took about 10.6 minutes, including per-epoch validation, and full-validation t-SNE took about 46 seconds. The complete notebook execution took about 12.0 minutes. These are execution times; the lab estimate includes implementation and interpretation. Runtime will vary with hardware and background activity.
 
 ## Set up your submission repository
 
