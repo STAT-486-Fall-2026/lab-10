@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Recreated by the notebook; keep data and trained models out of Git.
+/data/FashionMNIST/
+/checkpoints/
+*.pt
+*.pth
